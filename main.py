@@ -9,10 +9,7 @@ def sign_in(meetingid, pswd):
     #change the path specific to your computer
     
     #If on windows use below line for opening zoom
-    #subprocess.call('C:\\myprogram.exe')
-    
-    #If on mac / Linux use below line for opening zoom
-    subprocess.call(["/usr/bin/open", "/Applications/zoom.us.app"])
+    #subprocess.call('C:\Users\strat\AppData\Roaming\Zoom\bin\Zoom.exe')
 
     time.sleep(10)
     
